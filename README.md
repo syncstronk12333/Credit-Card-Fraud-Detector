@@ -1,7 +1,7 @@
-# #💳 Credit Card Fraud Detection System
+#  💳 Credit Card Fraud Detection System
 This Streamlit-based project detects potentially fraudulent credit card transactions based on user-uploaded transaction data. It uses rule-based anomaly detection techniques inspired by real-world financial heuristics.
 
-🚀 Features
+## 🚀 Features
 Detects unrealistic travel distance between consecutive transactions.
 
 Flags rapid multiple transactions in a short span.
@@ -29,7 +29,7 @@ Suspicious Devices	Flags non-expected device usage (e.g., not iPhone 13).
 New Country	Flags first transaction from a new country after initial use.
 Failed Authentication	Flags transactions with more than 2 failed login attempts.
 
-📂 How to Use
+## 📂 How to Use
 Clone this repository:
 
 bash
@@ -51,7 +51,7 @@ Edit
 streamlit run app.py
 Upload your .csv file containing transaction data and review detected fraud.
 
-📝 Input File Format
+## 📝 Input File Format
 Your CSV should include the following columns:
 
 Transaction_ID (unique identifier)
@@ -70,7 +70,7 @@ Device_ID
 
 Failed_Auth
 
-📦 Output
+## 📦 Output
 View a table of all suspicious transactions with reasons.
 
 Download the fraud report as a CSV file.
