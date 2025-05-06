@@ -44,6 +44,7 @@ streamlit run app.py
 ```
 
 Upload your .csv file containing transaction data and review detected fraud.
+(Sample dataset provided in the repo)
 
 ## 📝 Input File Format
 Your CSV should include the following columns:
