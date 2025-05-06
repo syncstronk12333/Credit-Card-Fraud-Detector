@@ -27,8 +27,8 @@ This Streamlit-based project detects potentially fraudulent credit card transact
 Clone this repository:
 
 ```sql
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+git clone https://github.com/syncstronk12333/Credit-Card-Fraud-Detector.git
+cd Credit-Card-Fraud-Detector
 ```
 
 Install required libraries:
