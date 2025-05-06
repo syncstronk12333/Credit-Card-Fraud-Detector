@@ -75,5 +75,7 @@ View a table of all suspicious transactions with reasons.
 
 Download the fraud report as a CSV file.
 
-📸 Sample Screenshot
-(Optional: Add screenshot of Streamlit UI if available)
+## 📸 Sample Screenshot
+
+![image](https://github.com/user-attachments/assets/77c17f90-b344-4eed-b5f9-59feb054d046)
+
