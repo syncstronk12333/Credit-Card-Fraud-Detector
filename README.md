@@ -11,7 +11,7 @@ This Streamlit-based project detects potentially fraudulent credit card transact
 - Flags **transactions from unusual countries** for a given card.
 - Marks **multiple failed authentication attempts**.
 
-# 🧪 Detection Logic Summary
+## 🧪 Detection Logic Summary
 | Rule                  | Description                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Large Travel Distance | Flags if travel speed between locations implies unrealistic movement. |
