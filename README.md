@@ -2,32 +2,26 @@
 This Streamlit-based project detects potentially fraudulent credit card transactions based on user-uploaded transaction data. It uses rule-based anomaly detection techniques inspired by real-world financial heuristics.
 
 ## 🚀 Features
-Detects unrealistic travel distance between consecutive transactions.
-
-Flags rapid multiple transactions in a short span.
-
-Alerts on transactions during odd hours (12 AM – 5 AM).
-
-Highlights high-value transactions exceeding a threshold.
-
-Identifies IQR outliers in transaction amounts.
-
-Detects use of unknown/suspicious device IDs.
-
-Flags transactions from unusual countries for a given card.
-
-Marks multiple failed authentication attempts.
+- Detects **unrealistic travel distance** between consecutive transactions.
+- Flags **rapid multiple transactions** in a short span.
+- Alerts on **transactions during odd hours** (12 AM – 5 AM).
+- Highlights **high-value transactions** exceeding a threshold.
+- Identifies **IQR outliers** in transaction amounts.
+- Detects use of **unknown/suspicious device IDs**.
+- Flags **transactions from unusual countries** for a given card.
+- Marks **multiple failed authentication attempts**.
 
 🧪 Detection Logic Summary
-Rule	Description
-Large Travel Distance	Flags if travel speed between locations implies unrealistic movement.
-Rapid Transactions	Flags 3 transactions within 5 minutes.
-Odd Hours	Flags transactions between 12 AM and 5 AM.
-High-Value	Flags transactions over ₹10,000.
-IQR Outliers	Detects amount values outside interquartile range.
-Suspicious Devices	Flags non-expected device usage (e.g., not iPhone 13).
-New Country	Flags first transaction from a new country after initial use.
-Failed Authentication	Flags transactions with more than 2 failed login attempts.
+| Rule                  | Description                                                        |
+|-----------------------|--------------------------------------------------------------------|
+| Large Travel Distance | Flags if travel speed between locations implies unrealistic movement. |
+| Rapid Transactions    | Flags 3 transactions within 5 minutes.                             |
+| Odd Hours             | Flags transactions between 12 AM and 5 AM.                         |
+| High-Value            | Flags transactions over ₹10,000.                                   |
+| IQR Outliers          | Detects amount values outside interquartile range.                 |
+| Suspicious Devices    | Flags non-expected device usage (e.g., not iPhone 13).             |
+| New Country           | Flags first transaction from a new country after initial use.      |
+| Failed Authentication | Flags transactions with more than 2 failed login attempts.         |
 
 ## 📂 How to Use
 Clone this repository:
