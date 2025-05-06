@@ -32,23 +32,23 @@ Failed Authentication	Flags transactions with more than 2 failed login attempts.
 ## 📂 How to Use
 Clone this repository:
 
-bash
-Copy
-Edit
+```sql
 git clone https://github.com/yourusername/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
+```
+
 Install required libraries:
 
-bash
-Copy
-Edit
+```sql
 pip install -r requirements.txt
+```
+
 Run the app:
 
-bash
-Copy
-Edit
+```sql
 streamlit run app.py
+```
+
 Upload your .csv file containing transaction data and review detected fraud.
 
 ## 📝 Input File Format
