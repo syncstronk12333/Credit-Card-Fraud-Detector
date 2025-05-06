@@ -48,24 +48,18 @@ Upload your .csv file containing transaction data and review detected fraud.
 ## 📝 Input File Format
 Your CSV should include the following columns:
 
-Transaction_ID (unique identifier)
-
-Card_Number
-
-Amount
-
-Timestamp (in datetime format)
-
-Latitude, Longitude
-
-Country
-
-Device_ID
-
-Failed_Auth
+- Transaction_ID (unique identifier)
+- Card_Number
+- Amount
+- Timestamp (in datetime format)
+- Latitude, Longitude
+- Country
+- Device_ID
+- Failed_Auth
 
 ## 📦 Output
-View a table of all suspicious transactions with reasons.
+
+Upload the dataset and view a table of all suspicious transactions with reasons for flagging.
 
 Download the fraud report as a CSV file.
 
